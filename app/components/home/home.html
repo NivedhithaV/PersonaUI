@@ -35,7 +35,7 @@
             <div class="form-group has-feedback">
                 <form name="zipForm">
                     <input type="text" class="form-control" placeholder="Enter zipcode" name="zip"
-                           data-ng-model="zipcode"
+                           data-ng-model="zipcode" autocomplete="false"
                            data-ng-keyup="validateZipCode();"
                            ng-pattern="/^[0-9]{5}(?:-[0-9]{4})?$/"/>
                     <span class="glyphicon glyphicon-search form-control-feedback"></span>

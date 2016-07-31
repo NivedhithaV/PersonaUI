@@ -14,7 +14,8 @@ angular.module('app')
     .controller('SearchResultsController', ['$log', '$scope', '$rootScope', '$location',
         function ($log, $scope, $rootScope, $location) {
 
-            $scope.gotoProfile = function () {
+            $scope.gotoProfile = function (persona) {
+                $rootScope.profileInfo = persona;
                 $location.url("/profile");
             };
 
@@ -26,7 +27,7 @@ angular.module('app')
                         "description": "Description is here",
                         "email": "firstperson@gmail.com",
                         "first_name": "Filza M.",
-                        "helper": 1,
+                        "helper": 0,
                         "id": 1,
                         "last_name": "Person",
                         "password": "$2b$12$W6LqIey7qNbMI550K5QzjuF.tZvoB0eKnh6KTNrNHsDswssR6jxNK",
@@ -34,7 +35,8 @@ angular.module('app')
                         "username": "Filza",
                         "services": ['Social visits', 'Financial advice'],
                         "zipcode": "93456",
-                        "profileImg": "pic.png"
+                        "profileImg": "pic.png",
+                        "btnText": "Connect"
                     },
                     {
                         "country_origin": "Germany",
@@ -50,7 +52,8 @@ angular.module('app')
                         "username": "Marissa",
                         "services": ['Former Immigrant', 'English Tutoring', 'Language Translator'],
                         "zipcode": "93456",
-                        "profileImg": "pic4.jpg"
+                        "profileImg": "pic4.jpg",
+                        "btnText": "Connect"
                     }
                 ]
             };

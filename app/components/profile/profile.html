@@ -33,7 +33,7 @@
 
     <div class="profile-page col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-wrapper">
-            <img src="../../assets/pic.png" alt="profile_img" class="profile-img">
+            <img src="../../assets/{{profileInfo.profileImg}}" alt="profile_img" class="profile-img">
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 profile-wrapper">
             <div class="username">{{profileInfo.username}}</div>
@@ -46,8 +46,8 @@
             <div class="arrival-date"> Arrival date: {{profileInfo.arrivalDate}}</div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 profile-wrapper bio">
-            <div class="" data-ng-if="profileInfo.helper">I offer:</div>
-            <div class="" data-ng-if="!profileInfo.helper">I need:</div>
+            <div class="" data-ng-if="profileInfo.helper == 1">I offer:</div>
+            <div class="" data-ng-if="profileInfo.helper == 0">I need:</div>
             <div class="service-list" data-ng-repeat="s in profileInfo.services">
                 <span class="glyphicon glyphicon-ok"> </span> {{s}}
             </div>
