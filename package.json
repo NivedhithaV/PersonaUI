@@ -1,0 +1,18 @@
+{
+  "name": "angualrjs-seed",
+  "description": "A starter project for angular js",
+  "repository": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gzippo": "^0.2.0",
+    "logfmt": "^1.2.0"
+  },
+  "devDependencies": {
+    "phantomjs": "*",
+    "karma": "*",
+    "karma-junit-reporter": "*",
+    "karma-jasmine": "*",
+    "karma-ng-scenario": "*"
+  }
+}
