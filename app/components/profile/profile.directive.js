@@ -21,7 +21,7 @@ angular.module('app')
                 'arrivalDate': '03/2015',
                 'btnText': 'Connect',
                 'helper': true,
-                'services': ['Social Visits', 'Language Translator', 'English Tutoring']
+                'services': ['Social visits', 'Financial advice']
             }
 
         }]

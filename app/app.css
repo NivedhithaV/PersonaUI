@@ -92,7 +92,7 @@ html, body, .page-content {
       color: white; }
 
 .profile-content {
-  background: rgba(143, 0, 252, 0.1);
+  background: rgba(155, 155, 155, 0.2);
   height: 100%; }
   .profile-content .profile-page .img-wrapper {
     text-align: center; }
@@ -135,14 +135,14 @@ html, body, .page-content {
   .search-content .search-page select {
     height: 40px; } }
 .results-content {
-  background: rgba(143, 0, 252, 0.1);
+  background: rgba(155, 155, 155, 0.2);
   height: 100%; }
 
 .results-page img {
   height: 80px; }
 
 .connections-content {
-  background: rgba(143, 0, 252, 0.1);
+  background: rgba(155, 155, 155, 0.2);
   height: 100%; }
 
 .connections-page img {

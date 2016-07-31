@@ -25,28 +25,32 @@ angular.module('app')
                         "created_at": "Sun, 31 Jul 2016 10:10:58 GMT",
                         "description": "Description is here",
                         "email": "firstperson@gmail.com",
-                        "first_name": "First",
+                        "first_name": "Filza M.",
                         "helper": 1,
                         "id": 1,
                         "last_name": "Person",
                         "password": "$2b$12$W6LqIey7qNbMI550K5QzjuF.tZvoB0eKnh6KTNrNHsDswssR6jxNK",
                         "updated_at": "Sun, 31 Jul 2016 10:10:58 GMT",
-                        "username": "first",
-                        "zipcode": "93456"
+                        "username": "Filza",
+                        "services": ['Social visits', 'Financial advice'],
+                        "zipcode": "93456",
+                        "profileImg": "pic.png"
                     },
                     {
                         "country_origin": "Germany",
                         "created_at": "Sun, 31 Jul 2016 10:12:27 GMT",
                         "description": "Description is here",
                         "email": "thirdhelper@gmail.com",
-                        "first_name": "Third",
+                        "first_name": "Marissa S.",
                         "helper": 1,
                         "id": 3,
                         "last_name": "Helper",
                         "password": "$2b$12$OG7q0pFH1GfYvIgApDtg0OU.0IpVJeoLUzwMzgGT5eNSpRv.uHyte",
                         "updated_at": "Sun, 31 Jul 2016 10:12:27 GMT",
-                        "username": "thirdhelper",
-                        "zipcode": "93456"
+                        "username": "Marissa",
+                        "services": ['Former Immigrant', 'English Tutoring', 'Language Translator'],
+                        "zipcode": "93456",
+                        "profileImg": "pic4.jpg"
                     }
                 ]
             };
