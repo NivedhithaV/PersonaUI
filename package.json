@@ -3,6 +3,9 @@
   "description": "A starter project for angular js",
   "repository": "https://github.com/angular/angular-seed",
   "license": "MIT",
+  "engines": {
+    "node": "4.1.1"
+  }
   "dependencies": {
     "express": "^4.14.0",
     "gzippo": "^0.2.0",
