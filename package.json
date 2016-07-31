@@ -5,7 +5,7 @@
   "license": "MIT",
   "engines": {
     "node": "4.1.1"
-  }
+  },
   "dependencies": {
     "express": "^4.14.0",
     "gzippo": "^0.2.0",
