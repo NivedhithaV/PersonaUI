@@ -126,7 +126,11 @@ html, body, .page-content {
 
 .search-content .search-page select {
   margin: 20px 0;
-  width: 100%; }
+  width: 100%;
+  height: 40px;
+  border: 1px solid grey;
+  background: #7c00db;
+  color: white; }
   .search-content .search-page select option {
     padding: 5px 0; }
 

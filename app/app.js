@@ -14,6 +14,10 @@ config(['$routeProvider', function($routeProvider) {
     templateUrl: "components/login/login.html",
     controller: "LoginController"
   }).
+  when("/register", {
+    templateUrl: "components/register/register.html",
+    controller: "RegisterController"
+  }).
   when("/landing", {
     templateUrl: "components/landing/landing.html",
     controller: "LandingController"

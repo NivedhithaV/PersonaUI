@@ -190,6 +190,10 @@ html, body, .page-content {
     select {
       margin: 20px 0;
       width: 100%;
+      height: 40px;
+      border: 1px solid grey;
+      background: $default-color;
+      color: white;
 
       option {
         padding: 5px 0;
