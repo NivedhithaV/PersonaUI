@@ -37,13 +37,13 @@
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 profile-wrapper">
             <div class="username">{{profileInfo.username}}</div>
-            <div class="country">{{profileInfo.country}}</div>
+            <div class="country">{{profileInfo.country_origin}}</div>
             <div class="languages">
                 <span ng-repeat="l in profileInfo.languages">
                     {{l}}{{$last ? '' : ', '}}
                 </span>
             </div>
-            <div class="arrival-date"> Arrival date: {{profileInfo.arrivalDate}}</div>
+            <div class="arrival-date"> Arrival date: {{profileInfo.dateOfEntry}}</div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 profile-wrapper bio">
             <div class="" data-ng-if="profileInfo.helper == 1">I offer:</div>
