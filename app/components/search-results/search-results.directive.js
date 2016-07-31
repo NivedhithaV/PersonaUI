@@ -36,7 +36,7 @@ angular.module('app')
                         "services": ['Social visits', 'Financial advice'],
                         "zipcode": "93456",
                         "profileImg": "pic.png",
-                        "dateOfEntry": "03, 2015",
+                        "dateOfEntry": "Mar, 2015",
                         "btnText": "Connect"
                     },
                     {
@@ -54,7 +54,7 @@ angular.module('app')
                         "services": ['Former Immigrant', 'English Tutoring', 'Language Translator'],
                         "zipcode": "93456",
                         "profileImg": "pic4.jpg",
-                        "dateOfEntry": "11, 2012",
+                        "dateOfEntry": "Nov, 2012",
                         "btnText": "Connect"
                     }
                 ]
