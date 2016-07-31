@@ -14,5 +14,8 @@
     "karma-junit-reporter": "*",
     "karma-jasmine": "*",
     "karma-ng-scenario": "*"
+  },
+  "scripts": {
+    "postinstall": "bower install"
   }
 }
