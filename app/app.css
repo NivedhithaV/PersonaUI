@@ -127,13 +127,13 @@ html, body, .page-content {
 .search-content .search-page select {
   margin: 20px 0;
   width: 100%;
-  height: 40px;
-  border: 1px solid grey;
-  background: #7c00db;
-  color: white; }
+  border: 1px solid grey; }
   .search-content .search-page select option {
     padding: 5px 0; }
 
+@media only screen and (max-device-width: 480px) {
+  .search-content .search-page select {
+    height: 40px; } }
 .results-content {
   background: rgba(143, 0, 252, 0.1);
   height: 100%; }
